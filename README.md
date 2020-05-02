@@ -27,9 +27,20 @@ In this project you will create a login page and request a token from the server
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain what a token is used for.
+
+Modern web services often use Jason Web Tokens(JWT)s which are tokens issued by the server made of strings of cryptic text that can be stored on the client-side to make decisions towards permissible data.
+
 - [ ] What steps can you take in your web apps to keep your data secure?
+
+We use tokens to authenticate and identfy access restrictions for protected routes.  Servicing on protocols such as HTTPS will encrypt our session so that our data is not compromised even it can be captured.
+
 - [ ] Describe how web servers work.
+
+Web servers are computing processes that service HTML pages, and in HTML 5 also xhtml 1 and DOM Leve 2 HTML which make web applications possible.
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+CRUD or Create, Read, Update, Delete map to the HTTP methods Post, Get, Put, and Delete respectively.
 
 
 ## Project Set Up
